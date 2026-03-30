@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DjangoRender - Suite de IA para Arquitectos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+        }
+        .accent-green {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+        }
+        .accent-blue {
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-white font-sans">
+    <!-- HERO / BANNER -->
+    <section class="min-h-screen gradient-bg flex flex-col justify-center items-center text-center px-4">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 text-gradient">
+                DjangoRender
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                La suite de agentes de IA para arquitectos. Renders, plantas, detalles técnicos y más — en segundos.
+            </p>
+            <a href="https://wa.me/TUNUMERO" target="_blank" 
+               class="inline-block accent-green hover:accent-blue text-white font-bold text-lg md:text-xl px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105">
+                Comprar ahora
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE MÓDULOS / TARJETAS -->
+    <section class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-4">Nuestros Productos</h2>
+            <p class="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
+                Agentes especializados para cada etapa de tu proyecto arquitectónico
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- AGENTE RENDER FAST -->
+                <div class="bg-slate-800 border border-slate-700 rounded-lg p-6 card-hover">
+                    <div class="text-4xl mb-4">⚡</div>
+                    <h3 class="text-xl font-bold mb-2">Agente Render Fast</h3>
+                    <p class="text-gray-400 mb-4">Genera renders ultrarrápidos con calidad profesional</p>
+                    <a href="#" class="inline-block accent-green hover:accent-blue text-white font-semibold px-4 py-2 rounded transition-all duration-300">
+                        Conectar →
+                    </a>
+                </div>
+
+                <!-- AGENTE RENDER PRO -->
+                <div class="bg-slate-800 border border-slate-700 rounded-lg p-6 card-hover">
+                    <div class="text-4xl mb-4">�</div>
+                    <h3 class="text-xl font-bold mb-2">Agente Render Pro</h3>
+                    <p class="text-gray-400 mb-4">Renders fotorealistas de alta resolución para proyectos premium</p>
+                    <a href="#" class="inline-block accent-green hover:accent-blue text-white font-semibold px-4 py-2 rounded transition-all duration-300">
+                        Conectar →
+                    </a>
+                </div>
+
+                <!-- BOCETO TO RENDER -->
+                <div class="bg-slate-800 border border-slate-700 rounded-lg p-6 card-hover">
+                    <div class="text-4xl mb-4">✏️</div>
+                    <h3 class="text-xl font-bold mb-2">Boceto to Render</h3>
+                    <p class="text-gray-400 mb-4">Convierte bocetos y planos en renders 3D realistas</p>
+                    <a href="#" class="inline-block accent-green hover:accent-blue text-white font-semibold px-4 py-2 rounded transition-all duration-300">
+                        Conectar →
+                    </a>
+                </div>
+
+                <!-- PLANOS DETALLE -->
+                <div class="bg-slate-800 border border-slate-700 rounded-lg p-6 card-hover">
+                    <div class="text-4xl mb-4">📐</div>
+                    <h3 class="text-xl font-bold mb-2">Planos Detalle</h3>
+                    <p class="text-gray-400 mb-4">Documentación técnica detallada y planos constructivos</p>
+                    <a href="#" class="inline-block accent-green hover:accent-blue text-white font-semibold px-4 py-2 rounded transition-all duration-300">
+                        Conectar →
+                    </a>
+                </div>
+
+                <!-- PLANTA ARQUITECTONICA -->
+                <div class="bg-slate-800 border border-slate-700 rounded-lg p-6 card-hover">
+                    <div class="text-4xl mb-4">🏠</div>
+                    <h3 class="text-xl font-bold mb-2">Planta Arquitectónica</h3>
+                    <p class="text-gray-400 mb-4">Plantas arquitectónicas profesionales con mobiliario</p>
+                    <a href="#" class="inline-block accent-green hover:accent-blue text-white font-semibold px-4 py-2 rounded transition-all duration-300">
+                        Conectar →
+                    </a>
+                </div>
+
+                <!-- IMAGE TO VIDEO -->
+                <div class="bg-slate-800 border border-slate-700 rounded-lg p-6 card-hover">
+                    <div class="text-4xl mb-4">🎬</div>
+                    <h3 class="text-xl font-bold mb-2">Image to Video</h3>
+                    <p class="text-gray-400 mb-4">Transforma imágenes estáticas en videos arquitectónicos</p>
+                    <a href="#" class="inline-block accent-green hover:accent-blue text-white font-semibold px-4 py-2 rounded transition-all duration-300">
+                        Conectar →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN TESTIMONIALES -->
+    <section class="py-20 px-4 bg-slate-800">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">Testimonios de Clientes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-slate-900 rounded-lg p-6">
+                    <div class="text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                    <p class="text-gray-300 mb-4">"DjangoRender revolucionó mi flujo de trabajo. Los renders son increíblemente rápidos y realistas."</p>
+                    <p class="text-green-400 font-semibold">- Arq. Carlos Mendoza</p>
+                </div>
+                <div class="bg-slate-900 rounded-lg p-6">
+                    <div class="text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                    <p class="text-gray-300 mb-4">"La herramienta Image to Video me permite presentar proyectos de manera impactante a mis clientes."</p>
+                    <p class="text-blue-400 font-semibold">- Arq. Sofía Rodríguez</p>
+                </div>
+                <div class="bg-slate-900 rounded-lg p-6">
+                    <div class="text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                    <p class="text-gray-300 mb-4">"Los planos detallados que genera me ahorran horas de trabajo manual. Imprescindible."</p>
+                    <p class="text-green-400 font-semibold">- Ing. Diego López</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section class="py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Contacto</h2>
+            <p class="text-gray-400 mb-8">¿Tienes preguntas? Estamos aquí para ayudarte</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-slate-800 rounded-lg p-6">
+                    <div class="text-3xl mb-4">�</div>
+                    <h3 class="text-xl font-bold mb-2">WhatsApp</h3>
+                    <a href="https://wa.me/TUNUMERO" target="_blank" class="text-green-400 hover:text-green-300">+52 TUNUMERO</a>
+                </div>
+                <div class="bg-slate-800 rounded-lg p-6">
+                    <div class="text-3xl mb-4">📧</div>
+                    <h3 class="text-xl font-bold mb-2">Email</h3>
+                    <a href="mailto:info@djangorender.com" class="text-blue-400 hover:text-blue-300">info@djangorender.com</a>
+                </div>
+                <div class="bg-slate-800 rounded-lg p-6">
+                    <div class="text-3xl mb-4">�</div>
+                    <h3 class="text-xl font-bold mb-2">Redes Sociales</h3>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300">Instagram</a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-800 border-t border-slate-700 py-8 text-center">
+        <p class="text-gray-400">
+            © 2025 DjangoRender · Todos los derechos reservados
+        </p>
+        <div class="mt-4 space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white">Política de Privacidad</a>
+            <a href="#" class="text-gray-400 hover:text-white">Términos de Servicio</a>
+        </div>
+    </footer>
+</body>
+</html>
